@@ -3,7 +3,7 @@ from time import sleep
 import RPi.GPIO as GPIO
 import pigpio
 
-import dht11
+from temp_humi import dht11
 
 # initialize GPIO
 GPIO.setwarnings(False)
