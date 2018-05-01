@@ -5,6 +5,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
 GPIO.cleanup()
 
+# 使用するピンの初期設定
 GPIO.setup(7, GPIO.IN)
 GPIO.setup(12, GPIO.OUT)
 
