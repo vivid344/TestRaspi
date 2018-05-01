@@ -1,0 +1,2 @@
+# TestRaspi
+ラズパイとpythonをつかって遊んでみます
